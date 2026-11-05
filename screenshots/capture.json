@@ -1,0 +1,53 @@
+{
+  "captured_at": "2026-11-05T13:57:47.000285+00:00",
+  "application": {
+    "format_version": 1,
+    "id": "app.imalkav.soundboard",
+    "name": "Soundboard",
+    "version": "0.1.0",
+    "api_version": "27.14.0",
+    "author": "iMalkav",
+    "description": "Play a small collection of original synthesized sounds.",
+    "heap_size_kib": 256,
+    "debug": false
+  },
+  "firmware": {
+    "version": "r1051",
+    "target": 21,
+    "branch": "dev",
+    "build_date": "2026-10-30",
+    "commit_hash": "6ee64ba1",
+    "intercom_version": "6ee64ba1",
+    "nwp_version": "1611.2.1.1.255.11.71",
+    "matter_version": "1.0"
+  },
+  "api_version": "27.15.0",
+  "method": "GET /api/screen?display=0 and display=1; base64 decoded and saved as PNG without resizing or retouching",
+  "settings": {
+    "version": 1,
+    "values": {
+      "sound": false,
+      "selected": "chime"
+    }
+  },
+  "inputs": [],
+  "data_note": "Schema default settings.",
+  "fixture": null,
+  "frames": [
+    {
+      "path": "screenshots/front.png",
+      "width": 72,
+      "height": 16,
+      "frame_sha256": "b40178909292dc2ef137b0b7b68f3d613660a44c1c3463c0d69561984b98af52",
+      "png_sha256": "b8615935ad0c4d7de04ac7c0925d34983aa98e42d91d523d9a8a756bbe13f079"
+    },
+    {
+      "path": "screenshots/back.png",
+      "width": 160,
+      "height": 80,
+      "frame_sha256": "cedab809309ed7a25251e1f99f976710e86360cd7e933a24756d77c5512d360f",
+      "png_sha256": "32932d40cbb98d4814fd1ef56ee8faead89073621a4b629a74656baeb06cf0fa"
+    }
+  ],
+  "verification": "Installed, launched, captured both displays, then quit via the device API. This is not comprehensive physical-device testing or verification on the latest release firmware."
+}
