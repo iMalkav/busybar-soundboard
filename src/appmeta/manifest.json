@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "id": "app.imalkav.soundboard",
+  "name": "Soundboard",
+  "version": "0.1.0",
+  "api_version": "27.14.0",
+  "author": "iMalkav",
+  "description": "Play a small collection of original synthesized sounds.",
+  "heap_size_kib": 256,
+  "debug": false
+}

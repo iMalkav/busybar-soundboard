@@ -1,0 +1,42 @@
+{
+  "format_version": 1,
+  "version": 1,
+  "fields": {
+    "sound": {
+      "type": "boolean",
+      "label": "Sound",
+      "default": true
+    },
+    "selected": {
+      "type": "enum",
+      "label": "Initial sound",
+      "default": "chime",
+      "options": [
+        {
+          "value": "chime",
+          "label": "Chime"
+        },
+        {
+          "value": "pop",
+          "label": "Pop"
+        },
+        {
+          "value": "bell",
+          "label": "Bell"
+        },
+        {
+          "value": "tick",
+          "label": "Tick"
+        },
+        {
+          "value": "accent",
+          "label": "Accent"
+        },
+        {
+          "value": "notify",
+          "label": "Notify"
+        }
+      ]
+    }
+  }
+}
